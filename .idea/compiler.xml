@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ambari-metrics-hadoop-sink" />
+        <module name="ambari-metrics-kafka-sink" />
+        <module name="ambari-serviceadvisor" />
+        <module name="ambari-views" />
+        <module name="ambari-metrics-host-aggregator" />
+        <module name="ambari-metrics-flume-sink" />
+        <module name="ambari-metrics-storm-sink" />
+        <module name="ambari-metrics-common" />
+        <module name="ambari-metrics-storm-sink-legacy" />
+        <module name="ambari-metrics-timelineservice" />
+        <module name="ambari-server" />
+        <module name="ambari-agent" />
+        <module name="ambari-admin" />
+        <module name="ambari-funtest" />
+        <module name="ambari-utility" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ambari-server" options="-Xlint:none -Xmaxwarns 50000" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ambari-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-admin/src/main/resources/ui/admin-web/dist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-agent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-agent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-funtest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-funtest/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-assembly/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-assembly/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-flume-sink/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-flume-sink/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-grafana/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-grafana/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-hadoop-sink/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-hadoop-sink/src/main/package" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-host-aggregator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-host-aggregator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-host-monitoring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-host-monitoring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-kafka-sink/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-kafka-sink/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-storm-sink-legacy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-storm-sink-legacy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-storm-sink/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-storm-sink/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-timelineservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/ambari-metrics-timelineservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-metrics/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-project/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-serviceadvisor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-serviceadvisor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-utility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-utility/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-views/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-views/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ambari-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
