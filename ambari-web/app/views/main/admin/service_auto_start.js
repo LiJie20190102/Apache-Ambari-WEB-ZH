@@ -73,7 +73,7 @@ App.MainAdminServiceAutoStartView = Em.View.extend({
         offColor: 'default',
         onColor: 'success',
         disabled: self.get('isDisabled'),
-        handleWidth: Math.max(Em.I18n.t('common.enabled').length, Em.I18n.t('common.disabled').length) * 8,
+        handleWidth: Math.max(Em.I18n.t('common.enabled').length, Em.I18n.t('common.disabled').length) * 32,
         onSwitchChange: (event, state) => {
           self.set('controller.isGeneralRecoveryEnabled', state);
         }

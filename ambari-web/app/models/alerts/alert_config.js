@@ -175,7 +175,7 @@ App.AlertConfigProperties = {
 
   Service: App.AlertConfigProperty.extend({
     name: 'service',
-    label: 'Service',
+    label: '服务',
     displayType: 'select',
     apiProperty: 'service_name',
     apiFormattedValue: function () {
@@ -189,7 +189,7 @@ App.AlertConfigProperties = {
 
   Component: App.AlertConfigProperty.extend({
     name: 'component',
-    label: 'Component',
+    label: '组件',
     displayType: 'select',
     apiProperty: 'component_name',
     apiFormattedValue: function () {
@@ -199,7 +199,7 @@ App.AlertConfigProperties = {
 
   Scope: App.AlertConfigProperty.extend({
     name: 'scope',
-    label: 'Scope',
+    label: '范围',
     displayType: 'select',
     apiProperty: 'scope',
     apiFormattedValue: function () {
@@ -209,7 +209,7 @@ App.AlertConfigProperties = {
 
   Description: App.AlertConfigProperty.extend({
     name: 'description',
-    label: 'Description',
+    label: '描述',
     displayType: 'textArea',
     // todo: check value after API will be provided
     apiProperty: 'description'
@@ -217,7 +217,7 @@ App.AlertConfigProperties = {
 
   Interval: App.AlertConfigProperty.extend({
     name: 'interval',
-    label: 'Check Interval',
+    label: '周期检查',
     displayType: 'textField',
     unit: 'Minute',
     colWidth: 'col-md-4',

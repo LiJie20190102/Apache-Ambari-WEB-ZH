@@ -43,19 +43,19 @@ angular.module('ambariAdminConsole')
       url: '/userManagement',
       templateUrl: 'views/userManagement/main.html',
       controller: 'UserManagementCtrl',
-      label: 'Users'
+      label: '用户'
     },
     editUser: {
       url: '/users/:id/edit',
       templateUrl: 'views/userManagement/userEdit.html',
       controller: 'UserEditCtrl',
-      label: 'Users'
+      label: '用户'
     },
     editGroup: {
       url: '/groups/:id/edit',
       templateUrl: 'views/userManagement/groupEdit.html',
       controller: 'GroupEditCtrl',
-      label: 'Groups'
+      label: '群组'
     },
   },
   views: {
@@ -63,31 +63,31 @@ angular.module('ambariAdminConsole')
       url: '/views',
       templateUrl: 'views/ambariViews/viewsList.html',
       controller: 'ViewsListCtrl',
-      label: 'Views'
+      label: '视图'
     },
     edit: {
       url: '/views/:viewId/versions/:version/instances/:instanceId/edit',
       templateUrl: 'views/ambariViews/edit.html',
       controller: 'ViewsEditCtrl',
-      label: 'Views'
+      label: '视图'
     },
     createViewUrl: {
       url: '/urls/new',
       templateUrl: 'views/urls/create.html',
       controller: 'ViewUrlCtrl',
-      label: 'Views'
+      label: '视图'
     },
     linkViewUrl: {
       url: '/urls/link/:viewName/:viewVersion/:viewInstanceName',
       templateUrl: 'views/urls/create.html',
       controller: 'ViewUrlCtrl',
-      label: 'Views'
+      label: '视图'
     },
     editViewUrl: {
       url: '/urls/edit/:urlName',
       templateUrl: 'views/urls/edit.html',
       controller: 'ViewUrlEditCtrl',
-      label: 'Views'
+      label: '视图'
     }
   },
   stackVersions: {
@@ -95,19 +95,19 @@ angular.module('ambariAdminConsole')
       url: '/stackVersions',
       templateUrl: 'views/stackVersions/list.html',
       controller: 'StackVersionsListCtrl',
-      label: 'Versions'
+      label: '版本'
     },
     create: {
       url: '/stackVersions/create',
       templateUrl: 'views/stackVersions/stackVersionPage.html',
       controller: 'StackVersionsCreateCtrl',
-      label: 'Versions'
+      label: '版本'
     },
     edit: {
       url: '/stackVersions/:stackName/:versionId/edit',
       templateUrl: 'views/stackVersions/stackVersionPage.html',
       controller: 'StackVersionsEditCtrl',
-      label: 'Versions'
+      label: '版本'
     }
   },
   remoteClusters: {
@@ -115,19 +115,19 @@ angular.module('ambariAdminConsole')
       url: '/remoteClusters',
       templateUrl: 'views/remoteClusters/list.html',
       controller: 'RemoteClustersListCtrl',
-      label: 'Remote Clusters'
+      label: '远程集群'
     },
     create: {
       url: '/remoteClusters/create',
       templateUrl: 'views/remoteClusters/remoteClusterPage.html',
       controller: 'RemoteClustersCreateCtrl',
-      label: 'Remote Clusters'
+      label: '远程集群'
     },
     edit: {
       url: '/remoteClusters/:clusterName/edit',
       templateUrl: 'views/remoteClusters/editRemoteClusterPage.html',
       controller: 'RemoteClustersEditCtrl',
-      label: 'Remote Clusters'
+      label: '远程集群'
     }
   },
   clusters: {
@@ -135,7 +135,7 @@ angular.module('ambariAdminConsole')
       url: '/clusterInformation',
       templateUrl: 'views/clusters/clusterInformation.html',
       controller: 'ClusterInformationCtrl',
-      label: 'Cluster Information'
+      label: '集群信息'
     }
   },
   dashboard: {

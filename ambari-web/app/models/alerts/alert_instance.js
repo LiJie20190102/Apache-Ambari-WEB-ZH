@@ -163,11 +163,11 @@ App.AlertInstance = DS.Model.extend({
   isAmbariServiceName: Em.computed.equal('serviceName', 'AMBARI'),
 
   shortState: {
-    'CRITICAL': 'CRIT',
-    'WARNING': 'WARN',
-    'OK': 'OK',
-    'UNKNOWN': 'UNKWN',
-    'PENDING': 'NONE'
+    'CRITICAL': '致命',
+    'WARNING': '警告',
+    'OK': '正常',
+    'UNKNOWN': '未知',
+    'PENDING': '无'
   }
 });
 

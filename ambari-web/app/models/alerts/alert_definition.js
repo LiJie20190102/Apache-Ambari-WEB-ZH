@@ -258,11 +258,11 @@ App.AlertDefinition = DS.Model.extend({
 });
 
 App.AlertDefinition.shortState = {
-  'CRITICAL': 'CRIT',
-  'WARNING': 'WARN',
-  'OK': 'OK',
-  'UNKNOWN': 'UNKWN',
-  'PENDING': 'NONE'
+  'CRITICAL': '致命',
+  'WARNING': '警告',
+  'OK': '正常',
+  'UNKNOWN': '未知',
+  'PENDING': '无'
 };
 
 App.AlertDefinition.reopenClass({
