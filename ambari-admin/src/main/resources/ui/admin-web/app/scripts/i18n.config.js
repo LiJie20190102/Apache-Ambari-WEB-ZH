@@ -24,8 +24,8 @@ angular.module('ambariAdminConsole')
     'CLUSTER.USER': 'Read-Only',
     'VIEW.USER': 'Use',
 
-    'common.ambari': 'Ambari',
-    'common.apacheAmbari': 'Apache Ambari',
+    'common.ambari': '启数大数据部署平台',
+    'common.apacheAmbari': '启数大数据部署平台',
     'common.about': '关于',
     'common.version': '版本',
     'common.signOut': '退出',
@@ -167,7 +167,7 @@ angular.module('ambariAdminConsole')
     'common.alerts.onlySimpleChars': '只能包含简单字符',
     'common.hidden' : '隐藏',
 
-    'main.title': '欢迎使用Apache Ambari',
+    'main.title': '欢迎使用启数大数据部署平台',
     'main.noClusterDescription': '配置集群，管理集群访问者，并为Ambari用户自定义视图。',
     'main.autoLogOut': 'Automatic Logout',
 

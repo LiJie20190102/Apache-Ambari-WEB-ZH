@@ -18,7 +18,7 @@
 
 Em.I18n.translations = {
 
-  'app.name':'Ambari',
+  'app.name':'启数大数据部署平台',
   'app.name.subtitle':'Ambari - {0}',
   'app.name.subtitle.experimental':'Ambari Experimental',
   'app.name.subtitle.installer':'集群安装向导',
