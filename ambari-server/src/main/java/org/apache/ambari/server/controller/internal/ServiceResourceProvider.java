@@ -647,6 +647,7 @@ public class ServiceResourceProvider extends AbstractControllerResourceProvider 
           + ", clusterName=" + request.getClusterName()
           + ", serviceName=" + request.getServiceName()
           + ", request=" + request);
+      LOG.info("======="+Arrays.toString(Thread.currentThread().getStackTrace()));
 
       clusterNames.add(request.getClusterName());
 
