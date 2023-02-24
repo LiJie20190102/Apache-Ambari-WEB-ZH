@@ -1486,10 +1486,10 @@ Em.I18n.translations = {
 
   'admin.highAvailability.wizard.step5.task0.title':'停止所有服务',
   'admin.highAvailability.wizard.step5.task1.title':'安装其他NameNode',
-  'admin.highAvailability.wizard.step5.task2.title':'Install JournalNodes',
+  'admin.highAvailability.wizard.step5.task2.title':'安装JournalNodes',
   'admin.highAvailability.wizard.step5.task3.title':'重新配置HDFS',
-  'admin.highAvailability.wizard.step5.task4.title':'Start JournalNodes',
-  'admin.highAvailability.wizard.step5.task5.title':'Disable Secondary NameNode',
+  'admin.highAvailability.wizard.step5.task4.title':'开始JournalNode',
+  'admin.highAvailability.wizard.step5.task5.title':'停用Secondary NameNode',
 
   'admin.highAvailability.wizard.step7.task0.title':'启动zookeeper服务',
   'admin.highAvailability.wizard.step7.task1.title':'Start Ambari Infra',
@@ -1517,8 +1517,8 @@ Em.I18n.translations = {
   'admin.highAvailability.wizard.step3.journalNode': '<b>JournalNode:</b> ',
   'admin.highAvailability.wizard.step3.toBeInstalled': 'TO BE INSTALLED',
   'admin.highAvailability.wizard.step3.toBeDeleted': 'TO BE DELETED',
-  'admin.highAvailability.wizard.step4.ckNotCreated':'Checkpoint not created yet',
-  'admin.highAvailability.wizard.step4.ckCreated':'Checkpoint created',
+  'admin.highAvailability.wizard.step4.ckNotCreated':'尚未创建检查点',
+  'admin.highAvailability.wizard.step4.ckCreated':'已创建检查点',
   'admin.highAvailability.step4.save.configuration.note':'This configuration is created by Enable {0} HA wizard',
   'admin.highAvailability.wizard.step6.jsNoInit':'JournalNodes尚未初始化',
   'admin.highAvailability.wizard.step6.jsInit':'JournalNodes已未初始化',
@@ -1591,18 +1591,16 @@ Em.I18n.translations = {
       '<p><b>查看配置更改。</b></p>' +
       '以下列出了向导为启用NameNode HA所做的配置更改。此信息仅用于<b>审阅</b>，除<b>dfs.journalnode.ededits.dir</b>属性外，不可编辑' +
       '</div>',
-  'admin.highAvailability.wizard.step2.body':'Select a host that will be running the additional NameNode.<br/> In addition,' +
-      ' select the hosts to run JournalNodes, which store NameNode edit logs in a fault tolerant manner.',
+  'admin.highAvailability.wizard.step2.body':'选择将运行其他NameNode的主机。<br/> 此外,' +
+      ' 选择要运行JournalNodes的主机，该主机以容错方式存储NameNode编辑日志。',
   'admin.highAvailability.wizard.step1.body':'此向导将引导您在集群上启用NameNode HA。' +
       '启用后，除了Active NameNode外，您还将运行Standby NameNode。' +
       '这允许自动执行故障切换的Active Standby NameNode配置。' +
       '启用HA的过程包括<b>自动化步骤的组合</b> （将由向导处理）和 ' +
       '<b>手动步骤</b> （必须按照向导的指示顺序执行）。' +
       '<b>在启用NameNode HA时，您应该计划一个集群维护窗口，并为集群停机做好准备。</b>',
-  'admin.highAvailability.wizard.step1.alert':'If you have HBase running, please exit this wizard and stop HBase first.',
-  'admin.highAvailability.wizard.step1.hawq.alert':'<br/><br/>You will need to perform additional manual ' +
-      'steps to update the HAWQ filespace location, once this wizard completes. Refer to the HAWQ documentation under section ' +
-      '"HAWQ Filespaces and High Availability Enabled HDFS" for more information.',
+  'admin.highAvailability.wizard.step1.alert':'如果您正在运行HBase，请退出此向导并首先停止HBase。',
+  'admin.highAvailability.wizard.step1.hawq.alert':'<br/><br/>此向导完成后，您将需要执行其他手动步骤来更新HAWQ文件空间位置。有关详细信息，请参阅“HAWQ文件空间和启用高可用性的HDFS”一节下的HAWQ文档。',
 
   'admin.rm_highAvailability.wizard.header': '启用ResourceManager HA向导',
   'admin.rm_highAvailability.wizard.step1.header': '开始',
@@ -1687,7 +1685,7 @@ Em.I18n.translations = {
   'admin.nameNodeFederation.wizard.step4.task1.title': '重新配置所有服务',
   'admin.nameNodeFederation.wizard.step4.task2.title': '安装其他NameNodes',
   'admin.nameNodeFederation.wizard.step4.task3.title': 'Install Additional ZKFCs',
-  'admin.nameNodeFederation.wizard.step4.task4.title': 'Start JournalNodes',
+  'admin.nameNodeFederation.wizard.step4.task4.title': '开始JournalNode',
   'admin.nameNodeFederation.wizard.step4.task5.title': 'Start Infra Solr',
   'admin.nameNodeFederation.wizard.step4.task6.title': 'Start Ranger Admin',
   'admin.nameNodeFederation.wizard.step4.task7.title': 'Start Ranger Usersync',
