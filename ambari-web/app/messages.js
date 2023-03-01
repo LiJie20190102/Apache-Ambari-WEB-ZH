@@ -72,7 +72,7 @@ Em.I18n.translations = {
   'to':'To',
   'ok':'完成',
   'as':'as',
-  'on':'on',
+  'on':'在',
   'in':'in',
   'any': '全部',
   'more':'更多',
