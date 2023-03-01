@@ -39,8 +39,20 @@ App.RMHighAvailabilityWizardStep4Controller = App.HighAvailabilityProgressPageCo
     this.removeTasks(tasksToRemove);
   },
 
+  getListedSerbices: function () {
+    var listedServices;
+    var listedServicesStr = App.router.get('clusterController.ambariProperties')['resourcemanager.ha.restart.listedServices']
+    if (listedServicesStr == null || !listedServicesStr || listedServicesStr === "") {
+      listedServices = ["YARN"];
+    } else {
+      listedServices = listedServicesStr.split(',');
+    }
+    return listedServices;
+  },
+
   stopRequiredServices: function () {
-    this.stopServices(['HDFS']);
+    var listedServices = this.getListedSerbices();
+    this.stopServices(listedServices, true, false);
   },
 
   installResourceManager: function () {
@@ -132,6 +144,7 @@ App.RMHighAvailabilityWizardStep4Controller = App.HighAvailabilityProgressPageCo
   },
 
   startAllServices: function () {
-    this.startServices(true);
+    var listedServices = this.getListedSerbices();
+    this.startServices(false, listedServices, true);
   }
 });

@@ -28,7 +28,21 @@ App.HighAvailabilityWizardStep5Controller = App.HighAvailabilityProgressPageCont
   coreSiteTag : "",
 
   stopAllServices: function () {
-    this.stopServices([], true, true);
+    var allServiceNames = App.Service.find().mapProperty("serviceName")
+
+    var filterNames;
+
+    var filterNamesStr=App.router.get('clusterController.ambariProperties')['namenode.ha.restart.filterServices']
+    if (filterNamesStr == null || !filterNamesStr || filterNamesStr === "") {
+      filterNames = ["ELASTICSEARCH", "HUGEGRAPH", "KAFKA"];
+    }else {
+      filterNames = filterNamesStr.split(',');
+    }
+
+    var listedServices = allServiceNames.filter(function (s) {
+          return !filterNames.contains(s)})
+
+    this.stopServices(listedServices, true, false);
   },
 
   installNameNode: function () {

@@ -297,7 +297,21 @@ App.HighAvailabilityWizardStep9Controller = App.HighAvailabilityProgressPageCont
   },
 
   startAllServices: function () {
-    this.startServices(false);
+    var allServiceNames = App.Service.find().mapProperty("serviceName")
+
+    var filterNames;
+
+    var filterNamesStr=App.router.get('clusterController.ambariProperties')['namenode.ha.restart.filterServices']
+    if (filterNamesStr == null || !filterNamesStr || filterNamesStr === "") {
+      filterNames = ["ELASTICSEARCH", "HUGEGRAPH", "KAFKA"];
+    }else {
+      filterNames = filterNamesStr.split(',');
+    }
+
+    var listedServices = allServiceNames.filter(function (s) {
+      return !filterNames.contains(s)})
+
+    this.startServices(false, listedServices, true);
   },
 
   stopHDFS: function () {

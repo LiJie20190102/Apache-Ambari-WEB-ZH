@@ -1484,6 +1484,7 @@ Em.I18n.translations = {
   'admin.highAvailability.wizard.step9.header.title':'完成HA设置',
   'admin.highAvailability.wizard.rollback.header.title':'Reverting Back to Non-HA Setup.',
 
+
   'admin.highAvailability.wizard.step5.task0.title':'停止所有服务',
   'admin.highAvailability.wizard.step5.task1.title':'安装其他NameNode',
   'admin.highAvailability.wizard.step5.task2.title':'安装JournalNodes',
@@ -1509,6 +1510,7 @@ Em.I18n.translations = {
   'admin.highAvailability.wizard.step9.task9.title':'删除Secondary NameNode',
   'admin.highAvailability.wizard.step9.task10.title':'停止HDFS',
   'admin.highAvailability.wizard.step9.task11.title':'启动所有服务',
+
   'admin.highAvailability.wizard.step9.notice.completed':'NameNode HA has been enabled successfully.',
 
   'admin.highAvailability.wizard.step3.curNameNode': '<b>Current NameNode:</b> ',
@@ -1522,7 +1524,7 @@ Em.I18n.translations = {
   'admin.highAvailability.step4.save.configuration.note':'This configuration is created by Enable {0} HA wizard',
   'admin.highAvailability.wizard.step6.jsNoInit':'JournalNodes尚未初始化',
   'admin.highAvailability.wizard.step6.jsInit':'JournalNodes已未初始化',
-  'admin.highAvailability.wizard.step6.jnStopped':'All JournalNodes should be started before initializing',
+  'admin.highAvailability.wizard.step6.jnStopped':'初始化前应启动所有JournalNode',
   'admin.highAvailability.wizard.step8.metaNoInit':'Metadata not initialized yet',
   'admin.highAvailability.wizard.step8.confirmPopup.body':'继续之前，请确认已运行手动步骤。',
   'admin.highAvailability.wizard.step9.hawq.confirmPopup.header':'Additional Steps Required for HAWQ',
